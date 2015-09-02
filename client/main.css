@@ -1,0 +1,24 @@
+/* general
+__________________________________________________________________________ */
+
+*,
+*:before,
+*:after
+{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	margin: 0;
+}
+
+.mural_photo {
+	width: 25vw;
+	height: 40vh;
+	float: left !important;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.hidden { display: none; }
