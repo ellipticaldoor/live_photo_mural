@@ -1,5 +1,6 @@
 <template name="show">
 	{{#each submittedImage}}
-		<div class="mural_photo" style="background-image: url({{this.url}});"></div>
+		<!--<div class="mural_photo" style="background-image: url({{this.url}});"></div>-->
+		<img src="{{this.url}}" alt="">
 	{{/each}}
 </template>

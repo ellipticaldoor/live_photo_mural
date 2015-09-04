@@ -6,7 +6,7 @@ Template.submitImage.helpers({
 
 Template.show.helpers({
   submittedImage: function(){
-	return Images.find({},{sort: {uploadedAt: -1}}).fetch();
+	return Images.find({},{sort: {uploadedAt: -1}, limit:5}).fetch();
   }
 });
 

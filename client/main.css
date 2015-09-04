@@ -12,8 +12,8 @@ __________________________________________________________________________ */
 }
 
 .mural_photo {
-	width: 25vw;
-	height: 40vh;
+	width: 20vw;
+	height: 20vh;
 	float: left !important;
 
 	background-repeat: no-repeat;
@@ -22,3 +22,8 @@ __________________________________________________________________________ */
 }
 
 .hidden { display: none; }
+
+img {
+	width: 20%;
+	float: left;
+}
