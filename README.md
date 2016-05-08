@@ -2,10 +2,6 @@
 
 An app for that allows to upload photos to a live mural in real time.
 
-## Download
-
-[<i class="icon_github"></i> repo](https://github.com/ellipticaldoor/mural-meteor)
-
 ## Instructions
 
 Go to the directory and run the command
