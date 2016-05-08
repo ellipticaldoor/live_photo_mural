@@ -1,4 +1,5 @@
 <template name="show">
+	<img id="qr" style="display:none;position:absolute;opacity:0.85;width:35vh;margin: 0 auto;left:50%;top:50%;margin-left:-150px;margin-top:-150px;" src="http://i.imgur.com/kUEyrZv.png" alt="" />
 	{{#each submittedImage}}
 		<div class="mural_photo" style="background-image: url({{this.url}});"></div>
 	{{/each}}
