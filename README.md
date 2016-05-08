@@ -1,6 +1,6 @@
 # Live photo mural
 
-An app for that allows to upload photos to a live mural in real time.
+An app that allows to upload photos to a live mural in real time.
 
 ## Instructions
 
